@@ -1,9 +1,7 @@
 {
-  "name": "vanilla-javascript-boilerplate",
+  "name": "3rd-week-TBWA",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/yujo11/vanilla-javascript-boilerplate.git",
-  "author": "",
   "license": "MIT",
   "scripts": {
     "test": "yarn run cypress open",

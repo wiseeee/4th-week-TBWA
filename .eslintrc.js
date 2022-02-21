@@ -10,5 +10,8 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [],
-  rules: {},
+  rules: {
+    'import/prefer-default-export': 'off',
+    'import/extensions': ['off'],
+  },
 };

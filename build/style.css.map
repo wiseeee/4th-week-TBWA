@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://3rd-week-TBWA/./src/css/index.css"],"names":[],"mappings":"AAAA;EACE,WAAW;AACb","file":"style.css","sourcesContent":["h1 {\r\n  color: grey;\r\n}\r\n"],"sourceRoot":""}

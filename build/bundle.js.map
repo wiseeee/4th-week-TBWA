@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://3rd-week-TBWA/./src/index.js"],"names":["document","querySelector","innerText"],"mappings":"mBAEYA,SAASC,cAAc,MAE/BC,UAAY,iB","file":"bundle.js","sourcesContent":["import './css/index.css';\r\n\r\nconst $h1 = document.querySelector('h1');\r\n\r\n$h1.innerText = '3rd-week-TBWA';\r\n"],"sourceRoot":""}

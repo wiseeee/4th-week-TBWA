@@ -1,5 +1,3 @@
-import './css/index.css';
+import initGNB from './gnb.js';
 
-const $h1 = document.querySelector('h1');
-
-$h1.innerText = 'Vanilla JS boilerplate';
+initGNB();
