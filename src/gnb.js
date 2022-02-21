@@ -46,7 +46,7 @@ const initGNB = () => {
           </ul>
           <div>
             <a href="/">
-              <img class="headerNavIvon" src="../public/img/people.png" alt="마이페이지 로고" />
+              <img class="headerNavIcon" src="../public/img/people.png" alt="마이페이지 로고" />
             </a>
             <a href="/cart/?next=/" class="func cart">
               <img class="headerNavIvon" src="../public/img/basket.png" alt="장바구니 아이콘" />

@@ -1,6 +1,7 @@
 .flexBox {
   display: flex;
   list-style: none;
+  padding: 0;
 }
 
 .spaceBetween {
@@ -35,7 +36,7 @@
   height: 51px;
 }
 
-.headerNavIvon {
+.headerNavIcon {
   width: 25px;
   height: 28px;
 }
