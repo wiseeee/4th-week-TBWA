@@ -17,7 +17,7 @@
 .navAnchor {
   color: black;
   text-decoration: none;
-  padding: 0 12px;
+  padding: 0 24px;
 }
 
 .leftBar {
@@ -37,6 +37,22 @@
 }
 
 .headerNavIcon {
-  width: 25px;
-  height: 28px;
+  width: 32px;
+  height: 35px;
+}
+
+.mobileHeader {
+  display: flex;
+  justify-content: space-around;
+  height: 44px;
+  border-bottom: #ececec 1px solid;
+  border-top: #ececec 1px solid;
+  padding: 0;
+  list-style: none;
+}
+
+.mobileHeaderTag {
+  text-align: center;
+  font-size: 15px;
+  color: #787878;
 }
