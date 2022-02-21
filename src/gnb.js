@@ -60,7 +60,7 @@ const initGNB = () => {
           <img class="headerKukkaIcon" src="../public/img/kukkaMobileLogo.png" alt="kukka 로고" />
         </a>
         <a href="/cart/?next=/" class="func cart">
-          <img class="headerNavIvon" src="../public/img/basket.png" alt="장바구니 아이콘" />
+          <img class="headerNavIcon" src="../public/img/basket.png" alt="장바구니 아이콘" />
         </a>
       </nav>
       <nav>
