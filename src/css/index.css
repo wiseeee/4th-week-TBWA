@@ -1,3 +1,34 @@
-h1 {
-  color: grey;
+.banner__border-btn {
+  border: 1px solid black;
+  width: 180px;
+  height: 36px;
+  padding: 10px 30px;
+  border-radius: 18px;
+  font-size: 12px;
+  line-height: 34px;
+  font-weight: 400;
+  letter-spacing: -0.21px;
+  color: black;
+}
+
+.banner__img {
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  transition: all 0.3s ease-in;
+}
+
+.banner__img:hover {
+  background-size: 103%;
+  cursor: pointer;
+}
+
+.banner__img-left {
+  background-image: url('https://kukka-2-media-123.s3.amazonaws.com/media/class-name/ContentsTopBanner/2020/12/25/brand_201225_w.png');
+}
+
+.banner__img-right {
+  background-image: url('https://kukka-2-media-123.s3.amazonaws.com/media/class-name/ContentsTopBanner/2020/12/25/offline_201225_w.png');
 }
