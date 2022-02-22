@@ -70,7 +70,7 @@
   position: absolute;
   margin: 0;
   width: 100%;
-  max-width: 1240px;
+  max-width: 1120px;
   z-index: 10;
 }
 
@@ -85,6 +85,20 @@
 
 .flexEnd {
   justify-content: flex-end;
+}
+
+.mobileBottomNav {
+  position: sticky;
+  padding-top: 48px;
+  top: -48px;
+}
+
+.mobileTopNav {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  max-width: 1120px;
+  z-index: 10;
 }
 
 a {

@@ -50,19 +50,25 @@ const initGNB = () => {
             </a>
           </div>
         </nav>
-        <div style="height: 2000px"></div>
+        <div id="test" style="height: 2000px"></div>
       `;
     }
     return `
-      <nav class="flexBox spaceBetween" style="margin-top: 16px 0 32px">
-        <a href="/">
-          <img class="headerKukkaIcon" src="../public/img/kukkaMobileLogo.png" alt="kukka 로고" />
-        </a>
-        <a href="/cart/?next=/" class="func cart">
-          <img class="headerNavIcon" src="../public/img/basket.png" alt="장바구니 아이콘" />
-        </a>
+      <nav class="mobileTopNav">
+        <ul class="flexBox spaceBetween">
+          <li>
+            <a href="/">
+              <img class="headerKukkaIcon" src="../public/img/kukkaMobileLogo.png" alt="kukka 로고" />
+            </a>
+          </li>
+          <li>
+            <a href="/cart/?next=/" class="func cart">
+              <img class="headerNavIcon" src="../public/img/basket.png" alt="장바구니 아이콘" />
+            </a>
+          </li>
+        </ul>
       </nav>
-      <nav>
+      <nav class="mobileBottomNav">
         <ul class="mobileHeader">
           <li style="margin-top: 10px"><a class="navAnchor mobileHeaderTag" href="/subscription/">정기구독</a></li>
           <li style="margin-top: 10px"><a class="navAnchor mobileHeaderTag" href="/shop/flower/">꽃다발</a></li>
