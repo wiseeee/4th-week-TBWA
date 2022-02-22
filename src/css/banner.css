@@ -1,0 +1,110 @@
+a {
+  text-decoration: none;
+}
+
+/* banner */
+#banner {
+}
+
+.banner__header {
+  display: none;
+}
+
+.banner__wrap {
+  width: 100%;
+}
+
+.banner__border-btn {
+  border: 1px solid black;
+  width: 180px;
+  height: 36px;
+  padding: 10px 30px;
+  border-radius: 18px;
+  font-size: 12px;
+  line-height: 34px;
+  font-weight: 400;
+  letter-spacing: -0.21px;
+  color: black;
+}
+
+.banner__img {
+  width: 100%;
+  height: 191px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner__img:hover {
+  cursor: pointer;
+}
+
+.banner__img-left {
+  background-image: url('https://kukka-2-media-123.s3.amazonaws.com/media/class-name/ContentsTopBanner/2020/12/25/brand_201225_w.png');
+}
+
+.banner__img-right {
+  background-image: url('https://kukka-2-media-123.s3.amazonaws.com/media/class-name/ContentsTopBanner/2020/12/25/offline_201225_w.png');
+}
+
+@media (max-width: 958px) {
+  #banner {
+    height: 60vw;
+    padding: 0px 20px;
+    background-color: rgb(247, 247, 247);
+  }
+
+  .banner__header {
+    padding-top: 1.3rem;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner__header > h3 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .banner__header > span {
+    font-size: 12px;
+  }
+
+  .banner__img {
+    height: 373px;
+    padding: 20px;
+  }
+
+  .banner__img:hover {
+    background-size: 100%;
+  }
+
+  .banner__img-left {
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left !important;
+    background-image: url(https://kukka-2-media-123.s3.amazonaws.com/media/class-name/ContentsTopBanner/2020/12/25/brand_201225.png);
+  }
+
+  .banner__h1 {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .banner__p {
+    font-size: 12px;
+  }
+
+  .banner__border-btn {
+    display: none;
+  }
+}
+@media (min-width: 958px) and (max-width: 1170px) {
+  .banner__img {
+    height: 191px;
+  }
+}
