@@ -1,3 +1,11 @@
+.banner__header {
+  display: none;
+}
+
+.banner__wrap {
+  width: 100%;
+}
+
 .banner__border-btn {
   border: 1px solid black;
   width: 180px;
@@ -31,4 +39,88 @@
 
 .banner__img-right {
   background-image: url('https://kukka-2-media-123.s3.amazonaws.com/media/class-name/ContentsTopBanner/2020/12/25/offline_201225_w.png');
+}
+
+@media (max-width: 767.98px) {
+  body {
+    background-color: rgb(255, 0, 0);
+  }
+
+  #banner {
+    height: 60vw;
+    padding: 0px 20px;
+    background-color: aliceblue;
+  }
+
+  .banner__header {
+    padding-top: 1.3rem;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner__header > h3 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .banner__header > span {
+    font-size: 12px;
+  }
+
+  .banner__img {
+    height: 373px;
+  }
+
+  .banner__img:hover {
+    background-size: 100%;
+  }
+
+  .banner__img-left {
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left !important;
+    background-image: url(https://kukka-2-media-123.s3.amazonaws.com/media/class-name/ContentsTopBanner/2020/12/25/brand_201225.png);
+  }
+
+  .banner__h1 {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .banner__p {
+    font-size: 12px;
+  }
+
+  .banner__border-btn {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 958px) {
+  body {
+    background-color: blue;
+  }
+
+  #banner {
+    padding: 0px 40px;
+  }
+
+  .banner__header {
+    padding-top: 40px;
+  }
+}
+@media (min-width: 958px) and (max-width: 1170px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media (min-width: 1170px) {
+  body {
+    background-color: green;
+  }
 }
