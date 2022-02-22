@@ -27,28 +27,45 @@ const initGNB = () => {
             </li>
           </ul>
         </nav>
-        <nav class="desktopBottomNav">
-          <div>
-            <a href="/">
-              <img class="headerKukkaIcon" src="../public/img/kukkaDeskTopLogo.png" alt="kukka 로고" />
-            </a>
+        <nav class="desktopBottomNavWrapper">
+          <div class="desktopBottomNav">
+            <div class="flexBox spaceBetween" style="width: 100%">
+              <div>
+                <a href="/">
+                  <img class="headerKukkaIcon" src="../public/img/kukkaDeskTopLogo.png" alt="kukka 로고" />
+                </a>
+              </div>
+              <ul class="flexBox" style="margin: 16px 36px; padding: 0">
+                <li>
+                  <a class="navAnchor" href="#video"><span class="desktopHeaderTag">꽃 정기구독</span></a>
+                </li>
+                <li>
+                  <a class="navAnchor" href="/shop/flowers/"><span class="desktopHeaderTag">꽃다발</span></a>
+                </li>
+                <li>
+                  <a class="navAnchor" href="/shop/quick/"><span class="desktopHeaderTag">당일배송</span></a>
+                </li>
+                <li>
+                  <a class="navAnchor" href="#image"><span class="desktopHeaderTag">플라워클래스</span></a>
+                </li>
+                <li>
+                  <a class="navAnchor" href="/item/all/"><span class="desktopHeaderTag">소품샾</span></a>
+                </li>
+                <li>
+                  <a class="navAnchor" href="/event"><span class="desktopHeaderTag">이벤트</span></a>
+                </li>
+              </ul>
+              <div style="margin-top: 8px">
+                <a href="/">
+                  <img class="headerNavIcon" src="../public/img/people.png" alt="마이페이지 로고" />
+                </a>
+                <a href="/cart/?next=/" class="func cart">
+                  <img class="headerNavIcon" src="../public/img/basket.png" alt="장바구니 아이콘" />
+                </a>
+              </div>
+            </div>
           </div>
-          <ul class="flexBox" style="margin: 16px 36px; padding: 0">
-            <li><a class="navAnchor" href="#video"><span class="desktopHeaderTag">꽃 정기구독</span></a></li>
-            <li><a class="navAnchor" href="/shop/flowers/"><span class="desktopHeaderTag">꽃다발</span></a></li>
-            <li><a class="navAnchor" href="/shop/quick/"><span class="desktopHeaderTag">당일배송</span></a></li>
-            <li><a class="navAnchor" href="#image"><span class="desktopHeaderTag">플라워클래스</span></a></li>
-            <li><a class="navAnchor" href="/item/all/"><span class="desktopHeaderTag">소품샾</span></a></li>
-            <li><a class="navAnchor" href="/event"><span class="desktopHeaderTag">이벤트</span></a></li>
-          </ul>
-          <div style="margin-top: 8px">
-            <a href="/">
-              <img class="headerNavIcon" src="../public/img/people.png" alt="마이페이지 로고" />
-            </a>
-            <a href="/cart/?next=/" class="func cart">
-              <img class="headerNavIcon" src="../public/img/basket.png" alt="장바구니 아이콘" />
-            </a>
-          </div>
+          <div class="bottomYellowLine"></div>
         </nav>
         <div id="test" style="height: 2000px"></div>
       `;
