@@ -7,34 +7,33 @@ const initGNB = () => {
   function makeHtml() {
     if (matchMedia('screen and (min-width: 786px)').matches) {
       return `
-      <nav>
-        <ul class="flexBox" style="justify-content: flex-end">
-          <li><a class="topNavAnchor" href="/account/login/?next=/">로그인</a></li>
-          <li>
-            <a class="topNavAnchor leftBar" href="#">
-              <span>회원가입</span>
-              <span style="color: #46cfa7">(1000포인트 지급!)</span>
-            </a>
-          </li>
-          <li><a class="topNavAnchor leftBar" href="/faq">꾸까 고객센터</a></li>
-          <li>
-            <a
-              class="topNavAnchor leftBar"
-              href="https://partners.kukka.kr/?utm_source=kukka&utm_medium=affiliate&utm_campaign=kukka&utm_content=partners">
-              가입제휴
-            </a>
-          </li>
-        </ul>
-        <div class="flexBox" style="justify-content: center; margin: 32px 16px 64px">
+        <nav class="desktopTopNav">
+          <ul class="flexBox flexEnd">
+            <li><a class="topNavAnchor" href="/account/login/?next=/">로그인</a></li>
+            <li>
+              <a class="topNavAnchor leftBar" href="#">
+                <span>회원가입</span>
+                <span style="color: #46cfa7">(1000포인트 지급!)</span>
+              </a>
+            </li>
+            <li><a class="topNavAnchor leftBar" href="/faq">꾸까 고객센터</a></li>
+            <li>
+              <a
+                class="topNavAnchor leftBar"
+                href="https://partners.kukka.kr/?utm_source=kukka&utm_medium=affiliate&utm_campaign=kukka&utm_content=partners"
+              >
+                가입제휴
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="desktopBottomNav">
           <div>
             <a href="/">
-              <img
-                class="headerKukkaIcon"
-                src="../public/img/kukkaDeskTopLogo.png"
-                alt="kukka 로고"/>
+              <img class="headerKukkaIcon" src="../public/img/kukkaDeskTopLogo.png" alt="kukka 로고" />
             </a>
           </div>
-          <ul class="flexBox" style="margin:16px 36px; padding: 0">
+          <ul class="flexBox" style="margin: 16px 36px; padding: 0">
             <li><a class="navAnchor headerTag" href="/subscription/">꽃 정기구독</a></li>
             <li><a class="navAnchor headerTag" href="/shop/flowers/">꽃다발</a></li>
             <li><a class="navAnchor headerTag" href="/shop/quick/">당일배송</a></li>
@@ -50,8 +49,8 @@ const initGNB = () => {
               <img class="headerNavIcon" src="../public/img/basket.png" alt="장바구니 아이콘" />
             </a>
           </div>
-        </div>
-      </nav>
+        </nav>
+        <div style="height: 2000px"></div>
       `;
     }
     return `

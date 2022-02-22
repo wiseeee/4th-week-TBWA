@@ -57,3 +57,23 @@
   color: #787878;
   padding: 0;
 }
+
+.desktopTopNav {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  max-width: 1240px;
+}
+
+.desktopBottomNav {
+  position: sticky;
+  padding-top: 48px;
+  top: -48px;
+  padding-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexEnd {
+  justify-content: flex-end;
+}
