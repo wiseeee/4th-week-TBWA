@@ -34,12 +34,12 @@ const initGNB = () => {
             </a>
           </div>
           <ul class="flexBox" style="margin: 16px 36px; padding: 0">
-            <li><a class="navAnchor headerTag" href="/subscription/">꽃 정기구독</a></li>
-            <li><a class="navAnchor headerTag" href="/shop/flowers/">꽃다발</a></li>
-            <li><a class="navAnchor headerTag" href="/shop/quick/">당일배송</a></li>
-            <li><a class="navAnchor headerTag" href="/class/">플라워클래스</a></li>
-            <li><a class="navAnchor headerTag" href="/item/all/">소품샾</a></li>
-            <li><a class="navAnchor headerTag" href="/event">이벤트</a></li>
+            <li><a class="navAnchor" href="/subscription/"><span class="desktopHeaderTag">꽃 정기구독</span></a></li>
+            <li><a class="navAnchor" href="/shop/flowers/"><span class="desktopHeaderTag">꽃다발</span></a></li>
+            <li><a class="navAnchor" href="/shop/quick/"><span class="desktopHeaderTag">당일배송</span></a></li>
+            <li><a class="navAnchor" href="/class/"><span class="desktopHeaderTag">플라워클래스</span></a></li>
+            <li><a class="navAnchor" href="/item/all/"><span class="desktopHeaderTag">소품샾</span></a></li>
+            <li><a class="navAnchor" href="/event"><span class="desktopHeaderTag">이벤트</span></a></li>
           </ul>
           <div style="margin-top: 8px">
             <a href="/">
