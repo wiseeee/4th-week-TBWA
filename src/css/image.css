@@ -1,18 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 li {
   list-style-type: none;
 }
-a {
+.image__anchor {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
   padding: 0;
 }
-a:hover {
+.image__anchor:hover {
   color: inherit;
   text-decoration: none;
 }

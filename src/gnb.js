@@ -67,7 +67,6 @@ const initGNB = () => {
           </div>
           <div class="bottomYellowLine"></div>
         </nav>
-        <div id="test" style="height: 2000px"></div>
       `;
     }
     return `
@@ -93,7 +92,6 @@ const initGNB = () => {
           <li style="margin-top: 10px"><a class="navAnchor mobileHeaderTag gnbATag" href="/class/">플라워클래스</a></li>
         </ul>
       </nav>
-      <div style="height: 1000px"></div>
     `;
   }
   const GNB = $('#gnb');
