@@ -6,8 +6,8 @@ const initImage = () => {
     const $selector = $(selector);
     const slideAll = $selector.querySelectorAll('ul.image-small__inner > li');
     const numSlide = slideAll.length;
-    const PrevBtn = $selector.querySelector('.control > a.prev');
-    const NextBtn = $selector.querySelector('.control > a.next');
+    const PrevBtn = $selector.querySelector('.control > button.prev');
+    const NextBtn = $selector.querySelector('.control > button.next');
 
     function showSlide(n) {
       const slideNow = n;

@@ -45,15 +45,27 @@ li {
   position: relative;
   padding: 40px 0 120px;
 }
-#image .image-container .control > a {
+#image .image-container .control > button {
   position: absolute;
   top: 25%;
+  background-color: transparent;
+  border: none;
 }
 #image .image-container .control .prev {
   left: -35px;
+  background-image: url('../../public/img/kukka.png');
+  background-position: -1158px -248px;
+  width: 84px;
+  height: 84px;
+  background-size: 1252px 845px;
 }
 #image .image-container .control .next {
   right: -35px;
+  background-image: url('../../public/img/kukka.png');
+  background-position: -1108px -492px;
+  width: 84px;
+  height: 84px;
+  background-size: 1252px 845px;
 }
 #image-big {
   width: 48%;
@@ -158,7 +170,7 @@ li {
   text-align: center;
   font-size: 10px;
   line-height: 20px;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: -0.15px;
   border: 1px solid;
   border-radius: 10px;
