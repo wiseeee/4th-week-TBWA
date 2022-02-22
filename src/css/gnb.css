@@ -53,9 +53,8 @@
   display: flex;
   justify-content: space-around;
   height: 44px;
-  border-bottom: #ececec 1px solid;
-  border-top: #ececec 1px solid;
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -78,9 +77,10 @@
   position: sticky;
   padding-top: 48px;
   top: -48px;
-  padding-bottom: 48px;
+  padding-bottom: 36px;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid yellow;
 }
 
 .flexEnd {
@@ -91,10 +91,12 @@
   position: sticky;
   padding-top: 48px;
   top: -48px;
+  border-bottom: 1px solid yellow;
 }
 
 .mobileTopNav {
   position: absolute;
+  border-bottom: #ececec 1px solid;
   margin: 0;
   width: 100%;
   max-width: 1120px;

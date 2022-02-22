@@ -34,10 +34,10 @@ const initGNB = () => {
             </a>
           </div>
           <ul class="flexBox" style="margin: 16px 36px; padding: 0">
-            <li><a class="navAnchor" href="/subscription/"><span class="desktopHeaderTag">꽃 정기구독</span></a></li>
+            <li><a class="navAnchor" href="#video"><span class="desktopHeaderTag">꽃 정기구독</span></a></li>
             <li><a class="navAnchor" href="/shop/flowers/"><span class="desktopHeaderTag">꽃다발</span></a></li>
             <li><a class="navAnchor" href="/shop/quick/"><span class="desktopHeaderTag">당일배송</span></a></li>
-            <li><a class="navAnchor" href="/class/"><span class="desktopHeaderTag">플라워클래스</span></a></li>
+            <li><a class="navAnchor" href="#image"><span class="desktopHeaderTag">플라워클래스</span></a></li>
             <li><a class="navAnchor" href="/item/all/"><span class="desktopHeaderTag">소품샾</span></a></li>
             <li><a class="navAnchor" href="/event"><span class="desktopHeaderTag">이벤트</span></a></li>
           </ul>
@@ -55,7 +55,7 @@ const initGNB = () => {
     }
     return `
       <nav class="mobileTopNav">
-        <ul class="flexBox spaceBetween">
+        <ul class="flexBox spaceBetween" style="margin: 0">
           <li>
             <a href="/">
               <img class="headerKukkaIcon" src="../public/img/kukkaMobileLogo.png" alt="kukka 로고" />
@@ -76,6 +76,7 @@ const initGNB = () => {
           <li style="margin-top: 10px"><a class="navAnchor mobileHeaderTag" href="/class/">플라워클래스</a></li>
         </ul>
       </nav>
+      <div style="height: 1000px"></div>
     `;
   }
   const GNB = $('#gnb');
