@@ -10,6 +10,7 @@
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="src/css/gnb.css" />
     <title>4th-week-TBWA</title>
     <link href="./src/css/image.css" rel="stylesheet" />
   </head>
@@ -17,7 +18,7 @@
     <header>
       <nav id="gnb"></nav>
     </header>
-    <main>
+    <main class="container">
       <section id="video"></section>
       <section id="image">
         <div class="image__inner">
@@ -94,7 +95,75 @@
       </section>
       <section id="banner"></section>
     </main>
-    <footer id="footter"></footer>
+    <section id="banner">
+      <div class="banner__header">
+        <h3 class=""><b>꾸까 브랜드 스토리</b></h3>
+        <span>더보기</span>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 banner__wrap">
+          <div class="bg-image text-center shadow-1-strong text-black banner__img banner__img-left">
+            <h1 class="pt-4 mb-3 h5 banner__h1">꾸까 브랜드 이야기</h1>
+            <p class="banner__p">꽃으로 라이프스타일을 만들어가는<br />의 문화를 소개해요.</p>
+            <span class="banner__border-btn">Brand stroy</span>
+          </div>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="bg-image text-center shadow-1-strong text-black banner__img banner__img-right">
+            <h1 class="pt-4 mb-3 h5">꾸까 오프라인 쇼룸</h1>
+            <p class="ml-5 text-md-center">
+              꽃을 가까이서 만져보고 향기도 맡아보고, <br />꽃 속에서 작은 휴식을 누릴 수 있는 kukka의 오프라인 쇼룸
+            </p>
+            <span class="banner__border-btn">꾸까 쇼룸 안내</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="footer__upside">
+        <div class="footer-left">
+          <div class="footer__sns">
+            <a href="https://ko-kr.facebook.com/kukka.kr/" target="_blank">
+              <img class="footer__logo" src="../public/img/facebook.png" alt="facebook-logo" />
+            </a>
+            <a href="https://www.instagram.com/kukkakorea/" target="_blank">
+              <img class="footer__logo" src="../public/img/instagram.png" alt="instgram-logo" />
+            </a>
+            <a href="https://www.youtube.com/channel/UC_zQakXCUPvjcfsU067zyCQ?view_as=subscriber" target="_blank">
+              <img class="footer__logo" src="../public/img/youtube.png" alt="youtube-logo" />
+            </a>
+          </div>
+          <div class="contact">
+            <h3 class="contact__h3">꾸까 고객센터 1661-1031</h3>
+            <span class="contact__caption">(평일 10:00 - 13:00, 14:00 - 18:00 / 주말 &amp; 공휴일 제외)</span>
+            <dd class="contact__partner">기업제휴 문의 : 070-4238-8251</dd>
+          </div>
+          <nav class="faq">
+            <a href="https://kukka.kr/faq/" class="link">꾸까 고객센터 &gt;</a>
+          </nav>
+        </div>
+        <img src="../public/img/kukkaLogo.png" alt="kukka-logo" class="kukka-logo" />
+      </div>
+      <hr />
+      <div class="about-terms">
+        <div class="about">
+          <dd>상호명: 꾸까(kukka)</dd>
+          <dd>사업자 등록번호: 264-81-32594</dd>
+          <dd class="end">대표자: 박춘화</dd>
+          <br class="only_pc" />
+          <dd><address>소재지: 서울시 서초구 남부순환로333길 10 kukka</address></dd>
+          <dd><a href="https://kukka.kr//disclosure/?next=/">기업공시</a></dd>
+          <dd class="end">통신판매신고번호 2018-서울서초-1692</dd>
+          <br class="only_pc" />
+          <copy>© 2014-2021 kukka, Inc. All rights reserved.</copy>
+        </div>
+        <nav class="tems">
+          <a href="https://kukka.kr/agreement/?next=/" class="link">이용약관</a>
+          <a href="https://kukka.kr/privacy/?next=/" class="link">개인정보 처리방침</a>
+          <a href="https://partners.kukka.kr/" target="_blank" class="link">제휴안내</a>
+        </nav>
+      </div>
+    </footer>
     <script type="module" src="src/index.js"></script>
   </body>
 </html>

@@ -1,3 +1,288 @@
-h1 {
-  color: grey;
+a {
+  text-decoration: none;
+}
+
+/* banner */
+#banner {
+}
+
+.banner__header {
+  display: none;
+}
+
+.banner__wrap {
+  width: 100%;
+}
+
+.banner__border-btn {
+  border: 1px solid black;
+  width: 180px;
+  height: 36px;
+  padding: 10px 30px;
+  border-radius: 18px;
+  font-size: 12px;
+  line-height: 34px;
+  font-weight: 400;
+  letter-spacing: -0.21px;
+  color: black;
+}
+
+.banner__img {
+  width: 100%;
+  height: 191px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner__img:hover {
+  cursor: pointer;
+}
+
+.banner__img-left {
+  background-image: url('https://kukka-2-media-123.s3.amazonaws.com/media/class-name/ContentsTopBanner/2020/12/25/brand_201225_w.png');
+}
+
+.banner__img-right {
+  background-image: url('https://kukka-2-media-123.s3.amazonaws.com/media/class-name/ContentsTopBanner/2020/12/25/offline_201225_w.png');
+}
+
+@media (max-width: 958px) {
+  body {
+    background-color: rgb(255, 0, 0);
+  }
+
+  #banner {
+    height: 60vw;
+    padding: 0px 20px;
+    background-color: rgb(247, 247, 247);
+  }
+
+  .banner__header {
+    padding-top: 1.3rem;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner__header > h3 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .banner__header > span {
+    font-size: 12px;
+  }
+
+  .banner__img {
+    height: 373px;
+    padding: 20px;
+  }
+
+  .banner__img:hover {
+    background-size: 100%;
+  }
+
+  .banner__img-left {
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left !important;
+    background-image: url(https://kukka-2-media-123.s3.amazonaws.com/media/class-name/ContentsTopBanner/2020/12/25/brand_201225.png);
+  }
+
+  .banner__h1 {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .banner__p {
+    font-size: 12px;
+  }
+
+  .banner__border-btn {
+    display: none;
+  }
+}
+@media (min-width: 958px) and (max-width: 1170px) {
+  /* body {
+    background-color: yellow;
+  } */
+  .banner__img {
+    height: 191px;
+  }
+}
+
+/* footer */
+#footer {
+  background-color: #222222;
+  color: white;
+  padding: 50px 20px;
+}
+
+.footer__sns {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer__logo {
+  height: 26px;
+}
+
+.contact__h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: -0.27px;
+}
+
+.contact__caption {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: -0.18px;
+  color: #9b9b9b;
+}
+
+.contact__partner {
+  padding: 6px 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  font-weight: 200;
+}
+
+.faq {
+  text-decoration: none;
+  margin-top: 15px;
+  float: left;
+  margin: 0;
+  border: none;
+  background: 0 0;
+  outline: 0;
+  display: block;
+  height: 36px;
+  padding: 0 20px;
+  border: #9b9b9b 1px solid;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 36px;
+  font-weight: 300;
+  letter-spacing: -0.18px;
+}
+
+.faq > a {
+  color: white;
+}
+
+dd > a {
+  color: #d3d3d3;
+}
+
+hr {
+  margin-top: 63px;
+  margin-bottom: 18px;
+  background-color: #787878;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about > dd,
+copy {
+  position: relative;
+  display: inline-block;
+  margin-right: 12px;
+  margin-bottom: 0;
+  font-size: 11px;
+  line-height: 19px;
+  font-weight: 400;
+  line-height: -0.4px;
+  letter-spacing: -0.17px;
+  color: #d3d3d3;
+}
+
+.about > dd:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: -9px;
+  width: 1px;
+  height: 11px;
+  background: #d3d3d3;
+}
+
+address {
+  margin: 0;
+}
+
+.tems {
+  display: flex;
+  gap: 35px;
+  margin-top: 30px;
+}
+
+.tems > a {
+  float: left;
+  display: block;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: -0.18px;
+  color: white;
+}
+
+.kukka-logo {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .about-terms {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about {
+    width: 60%;
+  }
+
+  .tems {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+  }
+
+  .contact {
+    display: flex;
+    gap: 15px;
+  }
+
+  .kukka-logo {
+    display: block;
+    right: 0;
+    width: 150px;
+    height: 63px;
+  }
+
+  .footer__upside {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  hr {
+    margin-top: 20px;
+  }
 }
