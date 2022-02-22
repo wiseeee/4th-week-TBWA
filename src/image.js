@@ -21,15 +21,21 @@ const initImage = () => {
         slideAll[i].style.display = "block";
       }
       slideAll[n - 1].style.display = "none" ;
-
       PrevBtn.addEventListener('click', function(n) {
         showSlide(slidePrev);
       });
       NextBtn.addEventListener('click', function() {
         showSlide(slideNext);
       });
+      document.getElementById('image-change-big').src = slideAll[n - 1].querySelector('a.image-small > img').src;
+      document.getElementById('image-big').href = slideAll[n - 1].querySelector('a.image-small').href;
+      console.log(slideAll[1]);
 
-
+      if(slideNow === 3) {
+        slideAll[1].classList.add('top-bar')
+      } else {
+        slideAll[1].classList.remove('top-bar')
+      }
     };
     showSlide(1);
   }
