@@ -55,7 +55,7 @@ const initGNB = () => {
       `;
     }
     return `
-      <nav class="flexBox spaceBetween" style="margin-top: 15px">
+      <nav class="flexBox spaceBetween" style="margin-top: 16px 0 32px">
         <a href="/">
           <img class="headerKukkaIcon" src="../public/img/kukkaMobileLogo.png" alt="kukka 로고" />
         </a>
