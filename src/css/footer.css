@@ -3,6 +3,12 @@
   background-color: #222222;
   color: white;
   padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__wraper {
+  max-width: 1120px;
 }
 
 .footer__sns {
