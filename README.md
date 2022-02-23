@@ -1,11 +1,14 @@
 ![Screen Shot 2022-02-22 at 10 54 46 PM](https://user-images.githubusercontent.com/24728385/155146441-1219b9c8-48f4-4b48-b497-b8baac4b9620.png)
 
-<h1 align="middle">[과제] 호두랩스</h1>
+<h1 align="middle">[과제] 퍼포먼스바이 TBWA</h1>
 
-꾸까 클론코딩 [🔗]https://kukka.kr/)
+꾸까 클론코딩 [🔗](https://kukka.kr/)
 <br/>
 
 # 🔗 배포
+https://determined-darwin-952010.netlify.app
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/343e0f49-0957-4f80-82b7-bd150a6d2751/deploy-status)](https://app.netlify.com/sites/determined-darwin-952010/deploys)
 <!--
 https://relaxed-dubinsky-c161e9.netlify.app
 
@@ -44,11 +47,13 @@ http://localhost:3000/ 접속
 
 1. Banner 컴포넌트 구현
 2. Footer 컴포넌트 구현
-3. README 작성
+3. Iframe 컴포넌트 구현
+4. README 작성
 
 ### [22_01 이현명](https://github.com/wiseeee)
 
 1. Image 컴포넌트 구현
+2. 
 
 ### [22_01 민무길](https://github.com/gilmujjang)
 
@@ -57,15 +62,23 @@ http://localhost:3000/ 접속
 
 ### [22_01 김선명](https://github.com/BGM-109)
 
-1. Iframe 컴포넌트 구현
-2. 팝업 노추 구현
-
 <br/>
 
 # 🏗 프로젝트 구조
 
 ```
-
+📦src
+ ┣ 📂css
+ ┃ ┣ 📜banner.css
+ ┃ ┣ 📜footer.css
+ ┃ ┣ 📜gnb.css
+ ┃ ┣ 📜image.css
+ ┃ ┗ 📜video.css
+ ┣ 📂utils
+ ┃ ┗ 📜utils.js
+ ┣ 📜gnb.js
+ ┣ 📜image.js
+ ┗ 📜index.js
 ```
 <br/>
 
