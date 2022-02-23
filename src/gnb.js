@@ -57,10 +57,10 @@ const initGNB = () => {
               </ul>
               <div style="margin-top: 8px">
                 <a href="/" class="gnbATag">
-                  <img class="headerNavIcon" src="../public/img/people.png" alt="마이페이지 로고" />
+                  <img class="headerNavIcon" src="./public/img/people.png" alt="마이페이지 로고" />
                 </a>
                 <a href="/cart/?next=/" class="func cart gnbATag">
-                  <img class="headerNavIcon" src="../public/img/basket.png" alt="장바구니 아이콘" />
+                  <img class="headerNavIcon" src="./public/img/basket.png" alt="장바구니 아이콘" />
                 </a>
               </div>
             </div>
@@ -74,12 +74,12 @@ const initGNB = () => {
         <ul class="flexBox spaceBetween" style="margin: 0">
           <li>
             <a href="/" class="gnbATag">
-              <img class="headerKukkaIcon" src="../public/img/kukkaMobileLogo.png" alt="kukka 로고" />
+              <img class="headerKukkaIcon" src="./public/img/kukkaMobileLogo.png" alt="kukka 로고" />
             </a>
           </li>
           <li>
             <a href="/cart/?next=/" class="func cart gnbATag">
-              <img class="headerNavIcon" src="../public/img/basket.png" alt="장바구니 아이콘" />
+              <img class="headerNavIcon" src="./public/img/basket.png" alt="장바구니 아이콘" />
             </a>
           </li>
         </ul>
